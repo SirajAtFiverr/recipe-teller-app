@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: font1;
-    src: url('assets/fonts/charbb_reg.ttf');
+    src: url('assets/fonts/frijole.regular.ttf');
 }
 
 /* @font-face {
@@ -53,7 +53,7 @@ header img{
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     letter-spacing: 8px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
