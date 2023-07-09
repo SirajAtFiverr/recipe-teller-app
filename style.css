@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: font1;
-    src: url('assets/fonts/RecipeDaily-Regular.otf') format('opentype');
+    src: url('assets/fonts/charbb_reg.ttf');
 }
 
 /* @font-face {
@@ -76,7 +76,29 @@ header select{
 
 
 
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+}
 
+.input-section input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--text-color);
+    outline: none;
+
+    padding: 0.4em;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+    background-color: transparent;
+    color: inherit;
+}
 
 
 
