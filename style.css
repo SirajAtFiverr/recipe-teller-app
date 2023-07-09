@@ -88,7 +88,7 @@ header select{
 .input-section input{
     width: 100%;
     border: none;
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--secondary-color);
     outline: none;
 
     padding: 0.4em;
@@ -101,7 +101,20 @@ header select{
     color: inherit;
 }
 
+.input-section button{
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.4em;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
 
+    background-color: var(--quaternary-color);
+    color: inherit;
+}
 
 
 
