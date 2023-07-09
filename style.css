@@ -120,6 +120,27 @@ header select{
 }
 
 
+.option-buttons-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1em;
+}
+
+.option-buttons-section button{
+    width: 49%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 0.2em;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+    background-color: var(--tertiary-color);
+    color: inherit;
+}
 
 .ingredients-section, .steps-section{
 
@@ -183,7 +204,11 @@ ol li .text{
 
 
 
-
 select > .placeholder {
     display: none;
+}
+
+ol li .completed {
+    background-color: green;
+    color: white;
 }

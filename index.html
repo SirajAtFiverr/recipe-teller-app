@@ -33,16 +33,21 @@
 
         <section class="input-section">
             <input type="text" placeholder="Enter name of recipe">
-            <button>Generate Recipe</button>
+            <button class="generate-button">Generate Recipe</button>
+        </section>
+
+        <section class="option-buttons-section">
+            <button class="save-button">Save</button>
+            <button class="share-button">Share</button>
         </section>
 
         <section>
             <section class="ingredients-section">
 
-                 <h2>Ingredients</h2>
+                <h2>Ingredients</h2>
                 <div class="list-container">
-                    <ol>
-                        <li>
+                    <ol id="ingredients-list">
+                        <!-- <li>
                             <span class="number">1</span>
                             <span class="text">1/2 cup chopped walnuts (optional)</span>
                         </li>
@@ -89,7 +94,7 @@
                         <li>
                             <span class="number">12</span>
                             <span class="text">1/2 cup chopped walnuts (optional)</span>
-                        </li>
+                        </li> -->
                     </ol>
                 </div>
 
@@ -99,8 +104,8 @@
 
                 <h2>Steps</h2>
                 <div class="list-container">
-                    <ol>
-                        <li>
+                    <ol id="steps-list">
+                        <!-- <li>
                             <span class="number">1</span>
                             <span class="text">Preheat oven to 350 degrees F (175 degrees C).</span>
                         </li>
@@ -119,7 +124,7 @@
                         <li>
                             <span class="number">5</span>
                             <span class="text">Preheat oven to 350 degrees F (175 degrees C).</span>
-                        </li>
+                        </li> -->
                     </ol>
 
                     
@@ -155,5 +160,5 @@
     
 </body>
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </html>
