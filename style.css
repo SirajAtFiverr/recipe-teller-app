@@ -1,0 +1,94 @@
+
+ /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #f9c784;
+    --secondary-color: #4e598c;
+    --tertiary-color: #ff8c42;
+    --quaternary-color: #fcaf58;
+    --text-color: #ffffff;
+}
+
+@font-face {
+    font-family: font1;
+    src: url('assets/fonts/RecipeDaily-Regular.otf') format('opentype');
+}
+
+/* @font-face {
+    font-family: font2;
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+} */
+
+
+
+/* Custom */
+
+
+body {
+    font-family: font1;
+    line-height: 1.5;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: var(--secondary-color);
+}
+
+header img{
+    width: 25%;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+header select{
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.4em;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+    background-color: var(--tertiary-color);
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select > .placeholder {
+    display: none;
+}
