@@ -114,7 +114,7 @@ header select{
     letter-spacing: 2px;
     text-align: center;
 
-    background-color: var(--quaternary-color);
+    background-color: var(--tertiary-color);
     color: inherit;
 }
 
